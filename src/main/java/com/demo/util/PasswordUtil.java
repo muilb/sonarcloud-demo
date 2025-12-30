@@ -14,7 +14,7 @@ public class PasswordUtil {
 
     // ❌ SECURITY ISSUE: Hardcoded password
     // Sonar Rule: S2068 - Credentials should not be hard-coded
-    public static final String DB_PASSWORD = "xxxxx";
+    public static final String DB_PASSWORD = "addmin12344";
     
     // ❌ SECURITY ISSUE: Another hardcoded credential
     private static final String API_KEY = "sk-1234567890abcdef444";
