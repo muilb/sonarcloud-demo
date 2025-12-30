@@ -14,13 +14,15 @@ public class PasswordUtil {
 
     // ❌ SECURITY ISSUE: Hardcoded password
     // Sonar Rule: S2068 - Credentials should not be hard-coded
-    public static final String DB_PASSWORD = "admin123";
+    public static final String DB_PASSWORD = "addmin12344";
+
+    public static final String DB_PASSWORD_1 = "addmin12344567";
     
     // ❌ SECURITY ISSUE: Another hardcoded credential
-    private static final String API_KEY = "sk-1234567890abcdef";
+    private static final String API_KEY = "sk-1234567890abcdef444";
     
     // ❌ SECURITY ISSUE: Hardcoded in variable name
-    private static final String SECRET_TOKEN = "mySecretToken2024";
+    private static final String SECRET_TOKEN = "mySecretToken20242025";
 
     /**
      * Validate password - INSECURE implementation
